@@ -1,0 +1,11 @@
+/Users/jennypichardo/Desktop/visProjects/TDD/bin/Debug/netcoreapp2.1/TDD.deps.json
+/Users/jennypichardo/Desktop/visProjects/TDD/bin/Debug/netcoreapp2.1/TDD.runtimeconfig.json
+/Users/jennypichardo/Desktop/visProjects/TDD/bin/Debug/netcoreapp2.1/TDD.runtimeconfig.dev.json
+/Users/jennypichardo/Desktop/visProjects/TDD/bin/Debug/netcoreapp2.1/TDD.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/bin/Debug/netcoreapp2.1/TDD.pdb
+/Users/jennypichardo/Desktop/visProjects/TDD/obj/Debug/netcoreapp2.1/TDD.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/obj/Debug/netcoreapp2.1/TDD.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/obj/Debug/netcoreapp2.1/TDD.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/obj/Debug/netcoreapp2.1/TDD.AssemblyInfo.cs
+/Users/jennypichardo/Desktop/visProjects/TDD/obj/Debug/netcoreapp2.1/TDD.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/obj/Debug/netcoreapp2.1/TDD.pdb
