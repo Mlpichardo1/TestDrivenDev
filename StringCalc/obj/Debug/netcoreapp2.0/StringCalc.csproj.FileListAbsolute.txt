@@ -1,0 +1,15 @@
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.pdb
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/Mono.Cecil.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/StringCalc.deps.json
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/StringCalc.runtimeconfig.json
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/StringCalc.runtimeconfig.dev.json
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/StringCalc.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/bin/Debug/netcoreapp2.0/StringCalc.pdb
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/obj/Debug/netcoreapp2.0/StringCalc.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/obj/Debug/netcoreapp2.0/StringCalc.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/obj/Debug/netcoreapp2.0/StringCalc.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/obj/Debug/netcoreapp2.0/StringCalc.AssemblyInfo.cs
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/obj/Debug/netcoreapp2.0/StringCalc.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/StringCalc/obj/Debug/netcoreapp2.0/StringCalc.pdb
