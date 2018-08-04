@@ -15,11 +15,20 @@ namespace Tests
         public void ifEmptyString_Return0()
         {
             var calc = new Calculator();
-            var input = 0;
-            var output = calc.CheckEmpty("");
+            var input = calc.CheckNum("");
 
-            Assert.AreEqual(output, input);
+            Assert.AreEqual(0, input);
         }
+
+        // [Test]
+        // public void ifSingleNumber_ReturnValue()
+        // {
+        //     var calc = new Calculator();
+        //     var output = 3;
+        //     var input = calc.CheckThree("3");
+
+        //     Assert.AreEqual(output, input);
+        // }
     }
 
 

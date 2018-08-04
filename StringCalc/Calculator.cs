@@ -4,11 +4,8 @@ namespace StringCalc
 {
     public class Calculator
     {
-        public int CheckEmpty(string input)
+        public int CheckNum(string input)
         {
-            // if (input == "")
-            // input = "0";
-            // return input;
             return 0;
         }
        
