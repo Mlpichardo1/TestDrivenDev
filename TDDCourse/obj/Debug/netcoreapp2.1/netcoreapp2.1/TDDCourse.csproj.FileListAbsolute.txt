@@ -1,0 +1,4 @@
+/Users/jennypichardo/Desktop/visProjects/TDD/TDDCourse/obj/Debug/netcoreapp2.1/netcoreapp2.1/TDDCourse.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/TDDCourse/obj/Debug/netcoreapp2.1/netcoreapp2.1/TDDCourse.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/TDDCourse/obj/Debug/netcoreapp2.1/netcoreapp2.1/TDDCourse.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/TDDCourse/obj/Debug/netcoreapp2.1/netcoreapp2.1/TDDCourse.AssemblyInfo.cs
