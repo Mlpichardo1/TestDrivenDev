@@ -1,0 +1,11 @@
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/obj/Debug/netcoreapp2.1/Canonicalizer.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/obj/Debug/netcoreapp2.1/Canonicalizer.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/obj/Debug/netcoreapp2.1/Canonicalizer.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/obj/Debug/netcoreapp2.1/Canonicalizer.AssemblyInfo.cs
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/bin/Debug/netcoreapp2.1/Canonicalizer.deps.json
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/bin/Debug/netcoreapp2.1/Canonicalizer.runtimeconfig.json
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/bin/Debug/netcoreapp2.1/Canonicalizer.runtimeconfig.dev.json
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/bin/Debug/netcoreapp2.1/Canonicalizer.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/bin/Debug/netcoreapp2.1/Canonicalizer.pdb
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/obj/Debug/netcoreapp2.1/Canonicalizer.dll
+/Users/jennypichardo/Desktop/visProjects/TDD/Canonicalizer/obj/Debug/netcoreapp2.1/Canonicalizer.pdb
