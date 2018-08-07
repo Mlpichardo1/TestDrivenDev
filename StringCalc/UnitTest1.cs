@@ -1,5 +1,6 @@
 using StringCalc;
 using NUnit.Framework;
+using System;
 
 namespace Tests
 {
@@ -10,7 +11,6 @@ namespace Tests
         // public void Setup()
         // {
         // }
-
         [Test]
         public void ifEmptyString_Return0()
         {
@@ -20,15 +20,32 @@ namespace Tests
             Assert.AreEqual(0, input);
         }
 
-        // [Test]
-        // public void ifSingleNumber_ReturnValue()
-        // {
-        //     var calc = new Calculator();
-        //     var output = 3;
-        //     var input = calc.CheckThree("3");
+        [Test]
+        public void ifSingleNumber_ReturnSingleNumber([Values("1", "2", "3", "4", "5")] 
+        string singleNum)
+        {
+            var calc = new Calculator();
+            var input = calc.CheckNum(singleNum);
 
-        //     Assert.AreEqual(output, input);
-        // }
+            Assert.AreEqual(Convert.ToInt32(singleNum), input);
+        }
+
+        // Two numbers, comma delimited, returns the sum
+        [TestCase(3, "1,2")]
+        [TestCase(6, "4,2")]
+        [TestCase(10, "5,5")]
+
+        public void TwoNumbers_CommaDelimited_ReturnSum(int expected, string twoNums)
+        {
+            
+
+            var calc = new Calculator();
+            // var input = calc.SumTwoNums(twoNums);
+
+            Assert.AreEqual(expected, calc.SumTwoNums(twoNums));
+        }
+
+        
     }
 
 
