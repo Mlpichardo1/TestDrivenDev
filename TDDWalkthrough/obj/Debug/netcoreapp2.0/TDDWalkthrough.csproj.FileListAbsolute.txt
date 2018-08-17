@@ -1,0 +1,15 @@
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\TDDWalkthrough.deps.json
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\TDDWalkthrough.runtimeconfig.json
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\TDDWalkthrough.runtimeconfig.dev.json
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\TDDWalkthrough.dll
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\bin\Debug\netcoreapp2.0\TDDWalkthrough.pdb
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\obj\Debug\netcoreapp2.0\TDDWalkthrough.csprojAssemblyReference.cache
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\obj\Debug\netcoreapp2.0\TDDWalkthrough.csproj.CoreCompileInputs.cache
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\obj\Debug\netcoreapp2.0\TDDWalkthrough.AssemblyInfoInputs.cache
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\obj\Debug\netcoreapp2.0\TDDWalkthrough.AssemblyInfo.cs
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\obj\Debug\netcoreapp2.0\TDDWalkthrough.dll
+c:\Users\User\CareerDevs\TestDrivenDev\TDDWalkthrough\obj\Debug\netcoreapp2.0\TDDWalkthrough.pdb
