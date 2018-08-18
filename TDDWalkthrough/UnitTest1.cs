@@ -1,16 +1,23 @@
 using NUnit.Framework;
+using TDDWalkthrough;
 
 namespace Tests
 {
     [TestFixture]
-    public class Tests
+    public class CreditCardTesting
     {
 
         [Test]
-        public void ifNameIsBob_ReturnGreeting()
+        public void IfCreditCardNumberIsEmpty_ReturnException()
         {
-            string input = "";
-            Assert.AreSame("Bob", input);
+            var card = new CreditCardVerifier();
+            var input = card.Verify("");
+            var expected = "0";
+
+            Assert.AreEqual(expected, input);
         }
+
+
     }
 }
+

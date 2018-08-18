@@ -1,0 +1,6 @@
+1. Add the following verifications to a master function called “Verify()”
+
+   1. - Credit Card should be at least 13 ints
+   2. - Credit Card should be no larger than 16 ints
+   3. - Credit Card should not be null / Return Exception
+   4. - Credit Card should only have numbers
