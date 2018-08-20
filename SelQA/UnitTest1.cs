@@ -36,7 +36,26 @@ namespace Tests
             System.Console.WriteLine(text.getText());
 
             // Selecting a Frame
+            dirver.switchTo().Frame(0);
+            driver.switchTo().Frame("frame");
+            driver.switchTo().Frame(driver.findElement(By.xpath("")));
 
+            // Getting Widow Handles
+            String pwindow = driver.getWindowHandle(); // get parent window handle unique ID
+            Set<String> allWindows = driver.getWindowHandles(); // get all window handles
+            Iterator<String> allWindow allWindows.iterator();
+
+            String ParentWindow = allWindow.next(); // First Window
+            driver.switchTo().window(ParentWindow); // Switching to First Window
+
+            String ChildWindow = allWindow.next(); // Second Window
+            driver.switchTo().window(ChildWindow);
+
+            // How to get back to the Parent Window
+            driver.switchTo().defaultContent();
+
+            // Implicit Wait and Explicit Wait
+            
         }
 
         public void Test2()
