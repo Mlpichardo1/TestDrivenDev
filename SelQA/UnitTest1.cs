@@ -5,9 +5,9 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
-namespace Tests
+namespace SelQA
 {
-    public class Tests
+    public class UnitTest1
     {
         IWebDriver driver;
 
