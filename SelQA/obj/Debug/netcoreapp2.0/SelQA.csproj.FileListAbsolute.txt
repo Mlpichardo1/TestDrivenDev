@@ -1,0 +1,4 @@
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.csprojAssemblyReference.cache
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.csproj.CoreCompileInputs.cache
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.AssemblyInfoInputs.cache
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.AssemblyInfo.cs

@@ -1,66 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Firefox;
 
 namespace Tests
 {
     public class Tests
     {
+        IWebDriver driver;
 
         // How to set an alert
         public bool isAlertPresent()
         {
-            WebDriver driver;
+            
             try 
             {
-                driver.switchTo().alert();
-                return true
+                
+                driver.SwitchTo().Alert();
+                return true;
                 {
-                   catch (Eexception e)
-                   return false
+                   catch (Exception e)
+                   return false;
                 }
             }
 
         }
-
-        [Test]
-        public void Test1()
+        
+        public void SelQuestionsA()
         {
+            IWebDriver driver;
             driver = new FirefoxDriver();
 
             // Accept an alert
-            driver.switchTo().alert().Accept();
+            driver.SwitchTo().Alert().Accept();
             // Dismiss an alert
-            driver.switchTo().alert().Dismiss();
+            driver.SwitchTo().Alert().Dismiss();
 
             // Getting the text of the alert
-            Alert text = driver.switchTo().alert();
-            System.Console.WriteLine(text.getText());
+            var alert = driver.SwitchTo().Alert();
+            System.Console.WriteLine(alert.Text); // changed GetText to GetType
 
             // Selecting a Frame
-            dirver.switchTo().Frame(0);
-            driver.switchTo().Frame("frame");
-            driver.switchTo().Frame(driver.findElement(By.xpath("")));
+            driver.SwitchTo().Frame(0);
+            driver.SwitchTo().Frame("frame");
+            driver.SwitchTo().Frame(driver.FindElement(By.XPath("")));
 
             // Getting Widow Handles
-            String pwindow = driver.getWindowHandle(); // get parent window handle unique ID
-            Set<String> allWindows = driver.getWindowHandles(); // get all window handles
-            Iterator<String> allWindow allWindows.iterator();
+            String pwindow = driver.CurrentWindowHandle; // get parent window handle unique ID
+            List<string> allWindows = driver.WindowHandles.ToList(); // get all window handles
+            foreach(var allWindow in allWindows)
+            {
+                System.Console.WriteLine(allWindow);
+            }
 
             String ParentWindow = allWindow.next(); // First Window
-            driver.switchTo().window(ParentWindow); // Switching to First Window
+            driver.SwitchTo().Window(ParentWindow); // Switching to First Window
 
             String ChildWindow = allWindow.next(); // Second Window
-            driver.switchTo().window(ChildWindow);
+            driver.SwitchTo().Window(ChildWindow);
 
             // How to get back to the Parent Window
-            driver.switchTo().defaultContent();
+            driver.SwitchTo().DefaultContent();
 
             // Implicit Wait and Explicit Wait
-            
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
         }
 
-        public void Test2()
-        {
+        // public void Test2()
+        // {
 
-        }
+        // }
     }  
 }
