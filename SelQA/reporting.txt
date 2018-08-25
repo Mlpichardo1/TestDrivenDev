@@ -1,0 +1,3 @@
+C:\Users\User\CareerDevs\TestDrivenDev\SelQA\TestResults\TestResults.xml
+
+dotnet test --test-adapter-path:. --logger:nunit

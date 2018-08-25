@@ -2,3 +2,16 @@ c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.cspro
 c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.csproj.CoreCompileInputs.cache
 c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.AssemblyInfoInputs.cache
 c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.AssemblyInfo.cs
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\SelQA.deps.json
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\SelQA.runtimeconfig.json
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\SelQA.runtimeconfig.dev.json
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\SelQA.dll
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\SelQA.pdb
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.dll
+c:\Users\User\CareerDevs\TestDrivenDev\SelQA\obj\Debug\netcoreapp2.0\SelQA.pdb
+C:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\User\CareerDevs\TestDrivenDev\SelQA\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll

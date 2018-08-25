@@ -644,6 +644,12 @@
           "build/netcoreapp1.0/NUnit3TestAdapter.props": {}
         }
       },
+      "NunitXml.TestLogger/1.1.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.0/NunitXml.TestLogger.props": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2579,6 +2585,19 @@
         "build/netcoreapp1.0/nunit.engine.netstandard.dll",
         "nunit3testadapter.3.10.0.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "NunitXml.TestLogger/1.1.0": {
+      "sha512": "Yn9WDktnjYMByjUozMqS3lNJNajwGJQWmDb8e0uY5FqsdQulXEBt3lzsi/51ePa8Au3FtLlTEX3XuBMRwdqzTQ==",
+      "type": "package",
+      "path": "nunitxml.testlogger/1.1.0",
+      "files": [
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll",
+        "build/net45/NunitXml.TestLogger.props",
+        "build/netstandard1.0/NunitXml.TestLogger.props",
+        "nunitxml.testlogger.1.1.0.nupkg.sha512",
+        "nunitxml.testlogger.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5593,6 +5612,7 @@
       "Microsoft.NET.Test.Sdk >= 15.7.2",
       "Microsoft.NETCore.App >= 2.0.0",
       "NUnit3TestAdapter >= 3.10.0",
+      "NunitXml.TestLogger >= 1.1.0",
       "Selenium.Support >= 3.14.0",
       "Selenium.WebDriver >= 3.14.0",
       "nunit >= 3.10.1"
@@ -5650,6 +5670,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.10.0, )"
+          },
+          "NunitXml.TestLogger": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Selenium.Support": {
             "target": "Package",

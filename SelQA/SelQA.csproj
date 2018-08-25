@@ -9,5 +9,6 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2"/>
     <PackageReference Include="Selenium.WebDriver" Version="3.14.0"/>
     <PackageReference Include="Selenium.Support" Version="3.14.0"/>
+    <PackageReference Include="NunitXml.TestLogger" Version="1.1.0"/>
   </ItemGroup>
 </Project>

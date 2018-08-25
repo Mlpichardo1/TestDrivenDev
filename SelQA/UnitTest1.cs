@@ -7,27 +7,27 @@ using OpenQA.Selenium.Firefox;
 
 namespace SelQA
 {
+    [TestFixture]
     public class UnitTest1
     {
         IWebDriver driver;
 
         // How to set an alert
+        [Test]
         public bool isAlertPresent()
-        {
-            
-            try 
+        { 
+            try
             {
-                
                 driver.SwitchTo().Alert();
                 return true;
-                {
-                   catch (Exception e)
-                   return false;
-                }
             }
-
+            catch (System.Exception e)
+            {  
+                return false;
+            }
         }
         
+        [Test]
         public void SelQuestionsA()
         {
             IWebDriver driver;
@@ -55,11 +55,11 @@ namespace SelQA
                 System.Console.WriteLine(allWindow);
             }
 
-            String ParentWindow = allWindow.next(); // First Window
-            driver.SwitchTo().Window(ParentWindow); // Switching to First Window
+            // String ParentWindow = allWindow.next(); // First Window
+            // driver.SwitchTo().Window(ParentWindow); // Switching to First Window
 
-            String ChildWindow = allWindow.next(); // Second Window
-            driver.SwitchTo().Window(ChildWindow);
+            // String ChildWindow = allWindow.next(); // Second Window
+            // driver.SwitchTo().Window(ChildWindow);
 
             // How to get back to the Parent Window
             driver.SwitchTo().DefaultContent();
