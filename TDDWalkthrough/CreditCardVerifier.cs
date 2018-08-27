@@ -13,7 +13,7 @@ namespace TDDWalkthrough
         {
             if(numbers.Length <= length)
                 throw new Exception("Length Rule Violation. Password shuld be of more than characters length.");
-            return true;
+            return false;
         }
     }
 }

@@ -643,6 +643,35 @@
           "build/NUnit.props": {}
         }
       },
+      "NUnit.Console/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "NUnit.ConsoleRunner": "3.8.0",
+          "NUnit.Extension.NUnitProjectLoader": "3.5.0",
+          "NUnit.Extension.NUnitV2Driver": "3.6.0",
+          "NUnit.Extension.NUnitV2ResultWriter": "3.5.0",
+          "NUnit.Extension.TeamCityEventListener": "1.0.3",
+          "NUnit.Extension.VSProjectLoader": "3.7.0"
+        }
+      },
+      "NUnit.ConsoleRunner/3.8.0": {
+        "type": "package"
+      },
+      "NUnit.Extension.NUnitProjectLoader/3.5.0": {
+        "type": "package"
+      },
+      "NUnit.Extension.NUnitV2Driver/3.6.0": {
+        "type": "package"
+      },
+      "NUnit.Extension.NUnitV2ResultWriter/3.5.0": {
+        "type": "package"
+      },
+      "NUnit.Extension.TeamCityEventListener/1.0.3": {
+        "type": "package"
+      },
+      "NUnit.Extension.VSProjectLoader/3.7.0": {
+        "type": "package"
+      },
       "NUnit3TestAdapter/3.10.0": {
         "type": "package",
         "dependencies": {
@@ -2566,6 +2595,96 @@
         "lib/netstandard2.0/nunit.framework.xml",
         "nunit.3.10.1.nupkg.sha512",
         "nunit.nuspec"
+      ]
+    },
+    "NUnit.Console/3.8.0": {
+      "sha512": "fcE+z3I1U1vPxn//VHqNE74oUWZDoZu1nanDKlYbOMYQpIoLsRsrvSajjVI3PX2VLZtY3FLvKRVEXB/VubnT+A==",
+      "type": "package",
+      "path": "nunit.console/3.8.0",
+      "files": [
+        "nunit.console.3.8.0.nupkg.sha512",
+        "nunit.console.nuspec"
+      ]
+    },
+    "NUnit.ConsoleRunner/3.8.0": {
+      "sha512": "CGgYNNMPmK7/BZ7g36g1GcS3heLN2Zl2aAm54dhOZAXZW3l+3S+imyZ3J9WA+SCiRyBC0PbmkCtb4dVkxoxytw==",
+      "type": "package",
+      "path": "nunit.consolerunner/3.8.0",
+      "files": [
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "nunit.consolerunner.3.8.0.nupkg.sha512",
+        "nunit.consolerunner.nuspec",
+        "tools/Mono.Cecil.dll",
+        "tools/nunit-agent-x86.exe",
+        "tools/nunit-agent-x86.exe.config",
+        "tools/nunit-agent.exe",
+        "tools/nunit-agent.exe.config",
+        "tools/nunit.engine.api.dll",
+        "tools/nunit.engine.api.xml",
+        "tools/nunit.engine.dll",
+        "tools/nunit.nuget.addins",
+        "tools/nunit3-console.exe",
+        "tools/nunit3-console.exe.config"
+      ]
+    },
+    "NUnit.Extension.NUnitProjectLoader/3.5.0": {
+      "sha512": "oe+PYd5uf0u3WoV6txz6esPe5I9I3PV0o96KoEVvJs+AYMG9MCebmnMq7N8dYJrWiDKIuSDwZ6WTs84XTDZ/Pw==",
+      "type": "package",
+      "path": "nunit.extension.nunitprojectloader/3.5.0",
+      "files": [
+        "nunit.extension.nunitprojectloader.3.5.0.nupkg.sha512",
+        "nunit.extension.nunitprojectloader.nuspec",
+        "tools/nunit-project-loader.dll"
+      ]
+    },
+    "NUnit.Extension.NUnitV2Driver/3.6.0": {
+      "sha512": "TZIWwZaND/91p9FCuZH0vJLNPVyFV4No6XHgtd2ZLwN6MQZVPWdI4apL38ejsKAFn3nF1yTlvJgYF1l2mlo8wA==",
+      "type": "package",
+      "path": "nunit.extension.nunitv2driver/3.6.0",
+      "files": [
+        "LICENSE.txt",
+        "nunit.extension.nunitv2driver.3.6.0.nupkg.sha512",
+        "nunit.extension.nunitv2driver.nuspec",
+        "tools/nunit.core.dll",
+        "tools/nunit.core.interfaces.dll",
+        "tools/nunit.v2.driver.addins",
+        "tools/nunit.v2.driver.dll"
+      ]
+    },
+    "NUnit.Extension.NUnitV2ResultWriter/3.5.0": {
+      "sha512": "qz5Xxd+yBStdMP/jIIFz01cN3x8rKBCoF3alFHa5Gr+lZqdFyV1DN+3l8AlHrDSX5OzAz+T5CCBkgDim/hqGkQ==",
+      "type": "package",
+      "path": "nunit.extension.nunitv2resultwriter/3.5.0",
+      "files": [
+        "nunit.extension.nunitv2resultwriter.3.5.0.nupkg.sha512",
+        "nunit.extension.nunitv2resultwriter.nuspec",
+        "tools/nunit-v2-result-writer.dll"
+      ]
+    },
+    "NUnit.Extension.TeamCityEventListener/1.0.3": {
+      "sha512": "Xl/ISHoJMbQHxpfa06KELaSU46V+KjofeZHAPmlb6ohw4HmmzRp+Hk7vkJPZtNyTrKZbqutefOSMKpnkgEl8tA==",
+      "type": "package",
+      "path": "nunit.extension.teamcityeventlistener/1.0.3",
+      "files": [
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "nunit.extension.teamcityeventlistener.1.0.3.nupkg.sha512",
+        "nunit.extension.teamcityeventlistener.nuspec",
+        "tools/teamcity-event-listener.dll"
+      ]
+    },
+    "NUnit.Extension.VSProjectLoader/3.7.0": {
+      "sha512": "3xKLI7hnP5JWL1tauj2OaF7PFoGTNspryvk+894ZQsmEeRHDJwrfxc2sfWokFo2vZmlVCrCcVDl+9ALrhbhrYg==",
+      "type": "package",
+      "path": "nunit.extension.vsprojectloader/3.7.0",
+      "files": [
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "nunit.extension.vsprojectloader.3.7.0.nupkg.sha512",
+        "nunit.extension.vsprojectloader.nuspec",
+        "tools/vs-project-loader.dll"
       ]
     },
     "NUnit3TestAdapter/3.10.0": {
@@ -5634,6 +5753,8 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NET.Test.Sdk >= 15.7.2",
       "Microsoft.NETCore.App >= 2.0.0",
+      "NUnit.Console >= 3.8.0",
+      "NUnit.ConsoleRunner >= 3.8.0",
       "NUnit3TestAdapter >= 3.10.0",
       "nunit >= 3.10.1"
     ]
@@ -5645,11 +5766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\CareerDevs\\TestDrivenDev\\TDDWalkthrough\\TDDWalkthrough.csproj",
+      "projectUniqueName": "c:\\Users\\User\\CareerDevs\\TestDrivenDev\\TDDWalkthrough\\TDDWalkthrough.csproj",
       "projectName": "TDDWalkthrough",
-      "projectPath": "C:\\Users\\User\\CareerDevs\\TestDrivenDev\\TDDWalkthrough\\TDDWalkthrough.csproj",
+      "projectPath": "c:\\Users\\User\\CareerDevs\\TestDrivenDev\\TDDWalkthrough\\TDDWalkthrough.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\CareerDevs\\TestDrivenDev\\TDDWalkthrough\\obj\\",
+      "outputPath": "c:\\Users\\User\\CareerDevs\\TestDrivenDev\\TDDWalkthrough\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5686,6 +5807,14 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "NUnit.Console": {
+            "target": "Package",
+            "version": "[3.8.0, )"
+          },
+          "NUnit.ConsoleRunner": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
